@@ -3,7 +3,10 @@
 ## Getting started
 
 ```
-git clone --recurse https://github.com/experimental-software/workshop-materials-template.git ${PROJECT_NAME}
+PROJECT_NAME=your-project-here
+git clone --recurse \
+  https://github.com/experimental-software/workshop-materials-template.git \
+  ${PROJECT_NAME}
 ```
 
 To reset the branch history, run:
