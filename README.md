@@ -1,5 +1,7 @@
 # Workshop Materials Template
 
+This repository contains a scaffold for quickly creating new websites with the [Workshop Materials](https://github.com/experimental-software/workshop-materials) Hugo theme.
+
 ## Getting started
 
 ```
