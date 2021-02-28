@@ -22,6 +22,7 @@ git commit -m "Initial commit"
 
 After cloning the repository, you need to do the following steps:
 
+- [ ] [Update license information](README.md)
 - [ ] [Update dummy config](config.toml)
 - [ ] [Update dummy home page text](content/_index.md)
 - [ ] [Update dummy subject](content/subject-one)
