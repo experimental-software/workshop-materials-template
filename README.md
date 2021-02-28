@@ -6,13 +6,13 @@
 PROJECT_NAME=your-project-here
 git clone --recurse \
   https://github.com/experimental-software/workshop-materials-template.git \
-  ${PROJECT_NAME}
+  $PROJECT_NAME
 ```
 
 To reset the branch history, run:
 
 ```
-cd ${PROJECT_NAME}
+cd $PROJECT_NAME
 git checkout --orphan main
 git add .
 git commit -m "Initial commit"
