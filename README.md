@@ -52,9 +52,9 @@ hugo --destination docs/
 
 ## Content authoring
 
-### Tutorial
+### Tutorials
 
-The presentations can be created using [Markdown](https://daringfireball.net/projects/markdown/) syntax.
+#### Add a new tutorial
 
 Run the following command to add a new presentation in Hugo's `content` directory:
 
@@ -62,9 +62,39 @@ Run the following command to add a new presentation in Hugo's `content` director
 hugo new --kind tutorial subject-two/my-tutorial
 ```
 
-### Presentation
+#### Content syntax
+
+The presentations can be created using [Markdown](https://daringfireball.net/projects/markdown/) syntax.
+
+#### Content syntax extensions
+
+Additionally to the Markdown syntax, you can use the following custom [Hugo shortcodes](https://gohugo.io/content-management/shortcodes):
+
+**Info callout box**
+
+{{< info >}}
+Lorem [impsum](https://example.com) dolor sit amet.
+{{< /info >}}
+
+**Tip callout box**
+
+{{< tip >}}
+Lorem [impsum](https://example.com) dolor sit amet.
+{{< /tip >}}
+
+**Warning callout box**
+
+{{< warning >}}
+Lorem [impsum](https://example.com) dolor sit amet.
+{{< /warning >}}
+
+### Presentations
+
+#### Presentation syntax
 
 The presentations can be created using plain HTML with the [reveal.js](https://revealjs.com/) syntax.
+
+#### Add a new presentation
 
 Run the following command to add a new presentation in Hugo's `content` directory:
 
