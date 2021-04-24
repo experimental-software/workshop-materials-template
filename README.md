@@ -72,21 +72,27 @@ Additionally to the Markdown syntax, you can use the following custom [Hugo shor
 
 **Info callout box**
 
+```
 {{< info >}}
 Lorem [impsum](https://example.com) dolor sit amet.
 {{< /info >}}
+```
 
 **Tip callout box**
 
+```
 {{< tip >}}
 Lorem [impsum](https://example.com) dolor sit amet.
 {{< /tip >}}
+```
 
 **Warning callout box**
 
+```
 {{< warning >}}
 Lorem [impsum](https://example.com) dolor sit amet.
 {{< /warning >}}
+```
 
 ### Presentations
 
