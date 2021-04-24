@@ -2,6 +2,7 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "workshop-materials"
+defaultContentLanguage = "en"
 
 [params]
   subject = "IT"
