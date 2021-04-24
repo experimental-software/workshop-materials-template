@@ -34,7 +34,7 @@ After cloning the repository, you need to do the following steps:
 
 ### Run Hugo server
 
-To a development server which always re-renders after every change, run the following command:
+To a development server that always re-renders after every change, run the following command:
 
 ```
 hugo server
