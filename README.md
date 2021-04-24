@@ -66,6 +66,15 @@ Run the following command to create a new presentation in Hugo's `content` direc
 hugo new --kind tutorial subject-two/my-tutorial
 ```
 
+## Maintenance
+
+### Update theme
+
+```
+git submodule update --remote
+git add .
+git commit -m "Update theme"
+```
 
 ## Credits
 
