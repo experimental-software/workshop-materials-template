@@ -68,7 +68,7 @@ The presentations can be created using [Markdown](https://daringfireball.net/pro
 
 #### Content syntax extensions
 
-Additionally to the Markdown syntax, you can use the following custom [Hugo shortcodes](https://gohugo.io/content-management/shortcodes):
+Along with the Markdown syntax, you can use the following custom [Hugo shortcodes](https://gohugo.io/content-management/shortcodes):
 
 **Info callout box**
 
