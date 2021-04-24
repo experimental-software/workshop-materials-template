@@ -36,7 +36,7 @@ After cloning the repository, you to replace the dummy content from the template
 
 ### Run Hugo server
 
-To a development server which always re-renders after every change, run the following command:
+To a development server that always re-renders after every change, run the following command:
 
 ```
 hugo server
