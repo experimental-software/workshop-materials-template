@@ -7,7 +7,7 @@ This repository contains a scaffold for quickly creating new websites with the [
 ```
 PROJECT_NAME=your-project-here
 git clone --recurse \
-  https://github.com/experimental-software/workshop-materials-template.git \
+  git@github.com:experimental-software/workshop-materials-template.git \
   $PROJECT_NAME
 ```
 
