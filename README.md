@@ -11,6 +11,7 @@ PROJECT_NAME=your-project-here
 git clone --recurse \
   git@github.com:experimental-software/workshop-materials-template.git \
   $PROJECT_NAME
+git submodule update --remote
 ```
 
 To reset the branch history, run:
