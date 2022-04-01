@@ -54,7 +54,7 @@ hugo new --kind tutorial subject-two/my-tutorial
 
 #### Content syntax
 
-The presentations can be created using [Markdown](https://daringfireball.net/projects/markdown/) syntax.
+The tutorials can be created using [Markdown](https://daringfireball.net/projects/markdown/) syntax.
 
 #### Content syntax extensions
 
