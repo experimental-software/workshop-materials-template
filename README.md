@@ -4,6 +4,9 @@ This repository contains [Workshop Materials](https://github.com/experimental-so
 
 ## Init
 
+This section contains hints for the setup of new workshop materials.
+It can be deleted once the initial setup has been completed.
+
 ### Create project
 
 See https://github.com/experimental-software/workshop-materials#getting-started
@@ -18,7 +21,7 @@ After cloning the repository, you to replace the dummy content from the template
 - [ ] [Update dummy subject](content/subject-one)
 - [ ] [Add legal text to imprint](content/imprint.html)
 - [ ] Replace all occurences of the placeholder "..."
-- [ ] Create `publish.sh` script or GitHub Action
+- [ ] Create [publish script](#publish-script) or [GitHub Action](#github-action)
 
 ### Publish script
 
