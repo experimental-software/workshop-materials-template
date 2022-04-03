@@ -11,9 +11,7 @@ It can be deleted once the initial setup has been completed.
 
 See https://github.com/experimental-software/workshop-materials#getting-started
 
-### Update dummy content
-
-After cloning the repository, you to replace the dummy content from the template with the content of your workshop materials:
+### Setup checklist
 
 - [ ] [Update license information](README.md#license)
 - [ ] [Update dummy config](config.toml)
