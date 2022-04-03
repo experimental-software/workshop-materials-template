@@ -1,4 +1,4 @@
-# Workshop Materials Template
+# ... Workshop
 
 This repository contains [Workshop Materials](https://github.com/experimental-software/workshop-materials) for ...
 
@@ -17,6 +17,7 @@ After cloning the repository, you to replace the dummy content from the template
 - [ ] [Update dummy home page text](content/_index.md)
 - [ ] [Update dummy subject](content/subject-one)
 - [ ] [Add legal text to imprint](content/imprint.html)
+- [ ] Replace all occurences of the placeholder "..."
 
 ### License
 
@@ -110,4 +111,4 @@ git commit -m "Update theme"
 
 ## License
 
-TBD
+...
