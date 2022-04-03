@@ -18,6 +18,25 @@ After cloning the repository, you to replace the dummy content from the template
 - [ ] [Update dummy subject](content/subject-one)
 - [ ] [Add legal text to imprint](content/imprint.html)
 - [ ] Replace all occurences of the placeholder "..."
+- [ ] Create `publish.sh` script or GitHub Action
+
+### Publish script
+
+Here is an example how a `publish.sh` script might look like:
+
+```
+#!/usr/bin/env bash
+
+hugo
+rsync -r public/* www.experimental-software.com@ssh.strato.de:example-workshop
+rsync -r public/.htaccess www.experimental-software.com@ssh.strato.de:example-workshop
+```
+
+### GitHub Action
+
+If the workshop materials should be in a public repository and hosted by [GitHub Pages](https://pages.github.com/), then they can be automatically published after each commit with the help of [GitHub Actions](https://docs.github.com/en/actions).
+
+Refer to https://github.com/peaceiris/actions-hugo#getting-started for instructions how to setup a GitHub Action for the Hugo-based workshop materials.
 
 ### License
 
