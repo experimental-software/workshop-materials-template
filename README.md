@@ -65,23 +65,39 @@ hugo --destination docs/
 
 ### Tutorials
 
-#### Add a new tutorial
+Tutorials provide the use with a step-by-step guide for a complex scenario. The content can be created using [Markdown](https://daringfireball.net/projects/markdown/) syntax.
 
-Run the following command to add a new presentation in Hugo's `content` directory:
+Run the following command to add a new presentation in the `content` directory:
 
 ```
 hugo new --kind tutorial subject-two/my-tutorial
 ```
 
-#### Content syntax
+### Articles
 
-The tutorials can be created using [Markdown](https://daringfireball.net/projects/markdown/) syntax.
+Articles provide a free-text page for guides for simple scenarios. The content can be created using [Markdown](https://daringfireball.net/projects/markdown/) syntax.
 
-#### Content syntax extensions
+Run the following command to add a new article in the `content` directory:
+
+```
+hugo new --kind article subject-two/my-tutorial
+```
+
+### Presentations
+
+Presentations provide slides for a high-level overview over a topic. The content can be created using plain HTML with the [reveal.js](https://revealjs.com/) syntax.
+
+Run the following command to add a new presentation in the `content` directory:
+
+```
+hugo new --kind presentation subject-two/my-presentation
+```
+
+## Markdown extentions
 
 Along with the Markdown syntax, you can use the following custom [Hugo shortcodes](https://gohugo.io/content-management/shortcodes):
 
-**Info callout box**
+### Info callout box
 
 ```
 {{< info >}}
@@ -89,7 +105,7 @@ Lorem [impsum](https://example.com) dolor sit amet.
 {{< /info >}}
 ```
 
-**Tip callout box**
+### Tip callout box
 
 ```
 {{< tip >}}
@@ -97,7 +113,7 @@ Lorem [impsum](https://example.com) dolor sit amet.
 {{< /tip >}}
 ```
 
-**Warning callout box**
+### Warning callout box
 
 ```
 {{< warning >}}
@@ -105,28 +121,34 @@ Lorem [impsum](https://example.com) dolor sit amet.
 {{< /warning >}}
 ```
 
-### Presentations
-
-#### Presentation syntax
-
-The presentations can be created using plain HTML with the [reveal.js](https://revealjs.com/) syntax.
-
-#### Add a new presentation
-
-Run the following command to add a new presentation in Hugo's `content` directory:
-
-```
-hugo new --kind presentation subject-two/my-presentation
-```
-
 ## Maintenance
+
+### Improve theme
+
+Usually, while working on the contents of a workshop, it turns out that the theme needs some improvements. Follow those steps in a workshop repository, to get started with improving the theme.
+
+```bash
+{
+cd themes/workshop-materials
+git remote remove origin
+git remote add origin git@github.com:experimental-software/workshop-materials.git
+git fetch origin
+git checkout origin/master
+}
+```
 
 ### Update theme
 
-```
+After changes has been made in this repository, do the following steps to apply those changes in a workshop repository:
+
+```bash
+{
 git submodule update --remote
 git add .
 git commit -m "Update theme"
+}
+
+git push 
 ```
 
 ## License
