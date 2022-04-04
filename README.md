@@ -133,7 +133,7 @@ cd themes/workshop-materials
 git remote remove origin
 git remote add origin git@github.com:experimental-software/workshop-materials.git
 git fetch origin
-git checkout origin/master
+git checkout master
 }
 ```
 
