@@ -128,12 +128,13 @@ Lorem [impsum](https://example.com) dolor sit amet.
 Usually, while working on the contents of a workshop, it turns out that the theme needs some improvements. Follow those steps in a workshop repository, to get started with improving the theme.
 
 ```bash
-{
 cd themes/workshop-materials
+{
 git remote remove origin
 git remote add origin git@github.com:experimental-software/workshop-materials.git
 git fetch origin
 git checkout master
+git branch --set-upstream-to=origin/master
 }
 ```
 
