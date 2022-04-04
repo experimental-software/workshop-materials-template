@@ -20,6 +20,7 @@ See https://github.com/experimental-software/workshop-materials#getting-started
 - [ ] [Add legal text to imprint](content/imprint.html)
 - [ ] Replace all occurences of the placeholder "..."
 - [ ] Create [publish script](#publish-script) or [GitHub Action](#github-action)
+- [ ] What should be in the `.gitignore`? `/public` ?
 
 ### Publish script
 
