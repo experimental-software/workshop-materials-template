@@ -46,6 +46,16 @@ This template repository is licensed under the [CreativeCommons Zero](https://cr
 
 ## Development
 
+### Clone repository
+
+Use the following command to clone the repository:
+
+```
+ORG=experimental-software
+REPO=example
+git clone --recurse git@github.com:${ORG}/${REPO}.git
+```
+
 ### Run Hugo server
 
 To a development server that always re-renders after every change, run the following command:
