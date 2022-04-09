@@ -151,8 +151,6 @@ git branch --set-upstream-to=origin/master
 
 ### Update theme
 
-After changes has been made in this repository, do the following steps to apply those changes in a workshop repository:
-
 ```bash
 {
 git submodule update --remote
