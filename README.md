@@ -29,6 +29,8 @@ Here is an example how a `publish.sh` script might look like:
 ```
 #!/usr/bin/env bash
 
+set -e
+
 hugo
 rsync -r public/* www.experimental-software.com@ssh.strato.de:example-workshop
 rsync -r public/.htaccess www.experimental-software.com@ssh.strato.de:example-workshop
