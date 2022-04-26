@@ -1,6 +1,6 @@
 # TBD Workshop
 
-This repository contains [Workshop Materials](https://github.com/experimental-software/workshop-materials) for ...
+This repository contains [Workshop Materials](https://github.com/experimental-software/workshop-materials) for TBD.
 
 ## Init
 
