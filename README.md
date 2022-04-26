@@ -74,6 +74,10 @@ hugo --destination docs/
 
 ## Content authoring
 
+### Page structure
+
+https://fontawesome.com/v5/search?m=free&s=solid%2Cbrands
+
 ### Tutorials
 
 Tutorials provide the use with a step-by-step guide for a complex scenario. The content can be created using [Markdown](https://daringfireball.net/projects/markdown/) syntax.
