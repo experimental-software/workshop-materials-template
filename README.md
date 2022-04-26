@@ -1,4 +1,4 @@
-# ... Workshop
+# TBD Workshop
 
 This repository contains [Workshop Materials](https://github.com/experimental-software/workshop-materials) for ...
 
@@ -18,7 +18,7 @@ See https://github.com/experimental-software/workshop-materials#getting-started
 - [ ] [Update dummy home page text](content/_index.md)
 - [ ] [Update dummy subject](content/subject-one)
 - [ ] [Add legal text to imprint](content/imprint.html)
-- [ ] Replace all occurences of the placeholder "..."
+- [ ] Replace all occurences of the placeholder "TBD"
 - [ ] Create [publish script](#publish-script) or [GitHub Action](#github-action)
 - [ ] What should be in the `.gitignore`? `/public` ?
 
@@ -167,4 +167,4 @@ git push
 
 ## License
 
-...
+TBD
