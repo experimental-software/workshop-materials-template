@@ -21,6 +21,7 @@ See https://github.com/experimental-software/workshop-materials#getting-started
 - [ ] Replace all occurences of the placeholder "TBD"
 - [ ] Create [publish script](#publish-script) or [GitHub Action](#github-action)
 - [ ] What should be in the `.gitignore`?
+- [ ] Optional: Update [reveal.js](https://github.com/hakimel/reveal.js/releases) in [upstream Hugo theme](https://github.com/experimental-software/workshop-materials/tree/master/static/reveal.js).
 
 ### Publish script
 
