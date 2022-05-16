@@ -139,6 +139,18 @@ Lorem [impsum](https://example.com) dolor sit amet.
 {{< /warning >}}
 ```
 
+### Table
+
+```
+{{< bootstrap-table table_class="table table-bordered" >}}
+
+| Key | Value |
+|--|--|
+| `content-type` | `application/x-www-form-urlencoded` |
+
+{{< /bootstrap-table >}}
+```
+
 ## Maintenance
 
 ### Improve theme
