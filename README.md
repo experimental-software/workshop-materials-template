@@ -151,6 +151,12 @@ Lorem [impsum](https://example.com) dolor sit amet.
 {{< /bootstrap-table >}}
 ```
 
+### Image
+
+```md
+<img alt="Example" src="./img/example.jpg" width="30%" height="30%">
+```
+
 ## Maintenance
 
 ### Improve theme
